@@ -1,0 +1,75 @@
+# Palindrome Checker
+
+A simple web application that checks whether a given input is a palindrome.
+
+## What is a Palindrome?
+
+A palindrome is a word, number, phrase, or other sequence of characters that reads the same forward and backward, disregarding spaces, punctuation, and capitalization. 
+
+Examples of palindromes:
+- "A man, a plan, a canal: Panama"
+- "race a car"
+- "Never odd or even"
+- "Do geese see God?"
+
+In this application, we consider a string to be a palindrome if, after removing all non-alphanumeric characters and converting to lowercase, it reads the same forward and backward.
+
+## Description
+
+This Palindrome Checker is a single-page web application built with HTML, CSS, and JavaScript. It allows users to input a word or phrase and checks if it's a palindrome based on the definition above.
+
+## Features
+
+- Input field for entering text
+- "Check Palindrome" button to initiate the check
+- Displays result indicating whether the input is a palindrome or not
+- Alerts user if no input is provided
+- Ignores spaces, punctuation, and capitalization when checking for palindromes
+
+## Installation
+
+1. Clone the repository or download the HTML file:
+   ```
+   git clone 
+   ```
+   Or simply download the `index.html` file.
+
+2. Open the `index.html` file in a web browser.
+
+That's it! No additional setup or installation is required.
+
+## Usage
+
+1. Open the application in a web browser.
+2. Enter a word or phrase in the input field.
+3. Click the "Check Palindrome" button.
+4. The result will be displayed below the button, indicating whether the input is a palindrome or not.
+
+## Examples
+
+- Input: "A man, a plan, a canal: Panama"
+  Result: "A man, a plan, a canal: Panama is a palindrome"
+
+- Input: "race a car"
+  Result: "race a car is not a palindrome"
+
+- Input: "Was it a car or a cat I saw?"
+  Result: "Was it a car or a cat I saw? is a palindrome"
+
+## Technical Details
+
+- The application is built using vanilla JavaScript, HTML, and CSS.
+- It uses the a custom  `alert()` function for error messages (e.g., when no input is provided).
+- The palindrome checking algorithm removes all non-alphanumeric characters and converts the string to lowercase before comparison.
+
+## Contributing
+
+Contributions to improve the Palindrome Checker are welcome. Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or suggestions, please open an issue in the GitHub repository.
